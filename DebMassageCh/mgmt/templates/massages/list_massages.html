@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Liste des massages</h1>
+
+  {% for massage in massage_list %}
+    {{ massage }} (CHF {{ massage.massage_price }})<br/>
+  {% endfor %}
+
+{% endblock %}

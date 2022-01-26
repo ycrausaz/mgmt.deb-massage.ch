@@ -1,0 +1,5 @@
+.mode csv
+delete from mgmt_client;
+.import --csv --skip 1 ./Contacts_deb-massage-ch_NO-NULL.csv mgmt_client
+delete from mgmt_massage;
+.import --csv --skip 1 ../mgmt_massage.csv mgmt_massage

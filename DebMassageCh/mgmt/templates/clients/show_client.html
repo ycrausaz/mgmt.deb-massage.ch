@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <center>
+    <h1>{{ client }}</h1>
+    <br/>
+    {{ client.client_first_name }}<br/>
+    {{ client.client_last_name }}<br/>
+    {{ client.client_birthdate }}<br/>
+    {{ client.client_address }}<br/>
+    {{ client.client_additional_address }}<br/>
+    {{ client.client_zip_code }}<br/>
+    {{ client.client_city }}<br/>
+    {{ client.client_phone_number_1 }}<br/>
+    {{ client.client_phone_number_2 }}<br/>
+    {{ client.client_email_address }}<br/>
+    {{ client.client_comment }}<br/>
+  </center>
+{% endblock %}

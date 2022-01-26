@@ -1,0 +1,4 @@
+DELETE FROM clients;
+LOAD DATA INFILE '/Users/yann/Prog/Python/mgmt.deb-massage.ch/db_boot/Contacts_deb-massage-ch.csv' INTO TABLE clients FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+DELETE FROM massages;
+LOAD DATA INFILE '/Users/yann/Prog/Python/mgmt.deb-massage.ch/db_boot/mgmt_massage.csv' INTO TABLE massages FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;

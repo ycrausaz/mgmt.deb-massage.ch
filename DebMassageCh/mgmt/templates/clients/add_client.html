@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Ajouter un client</h1>
+  <br/>
+
+  <form action="" method="POST">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <input type="submit" value="Enregistrer" class="btn btn-secondary">
+
+
+  </form>
+
+
+{% endblock %}
