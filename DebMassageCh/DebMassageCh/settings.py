@@ -80,13 +80,21 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'mgmt',
+    #     'USER': 'mgmt_user',
+    #     'PASSWORD': 'mgmt_user',
+    #     'HOST': 'localhost',
+    #     'PORT': '3306',
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mgmt',
         'USER': 'mgmt_user',
         'PASSWORD': 'mgmt_user',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
