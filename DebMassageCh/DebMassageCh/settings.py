@@ -90,10 +90,10 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mgmt',
-        'USER': 'mgmt_user',
-        'PASSWORD': 'mgmt_user',
-        'HOST': '127.0.0.1',
+        'NAME': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
+        'USER': 'msowhegporjttj',
+        'PASSWORD': '0f5a69dedb402732091249235aec5f6b06a00c3ee642a8492501c577d8ce6b32',
+        'HOST': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
