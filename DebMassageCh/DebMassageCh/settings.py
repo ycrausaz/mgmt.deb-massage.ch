@@ -94,7 +94,7 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
+        'NAME': 'd1i9b5782khsga',
         'USER': 'msowhegporjttj',
         'PASSWORD': '0f5a69dedb402732091249235aec5f6b06a00c3ee642a8492501c577d8ce6b32',
         'HOST': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
